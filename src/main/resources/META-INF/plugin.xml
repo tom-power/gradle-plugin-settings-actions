@@ -1,0 +1,31 @@
+<idea-plugin>
+    <id>com.github.tom-power.gradle-plugin-settings-actions</id>
+    <name>Gradle plugin settings actions</name>
+    <version>0.1</version>
+    <vendor email="" url="https://github.com/tom-power/gradle-plugin-settings-actions">Tom Power</vendor>
+
+    <description>
+        <![CDATA[
+            Plugin providing actions to update the Jetbrains Gradle Plugin settings.
+        ]]>
+    </description>
+
+    <depends>com.intellij.modules.lang</depends>
+    <depends>org.jetbrains.plugins.gradle</depends>
+
+    <actions>
+        <action id="RunTestsUsingPlatform"
+                class="com.github.tompower.gpsa.SetTestRunnerToPlatform"
+                text="Run tests using Platform">
+        </action>
+        <action id="RunTestsUsingGradle"
+                class="com.github.tompower.gpsa.SetTestRunnerToGradle"
+                text="Run tests using Gradle">
+        </action>
+        <action id="RunTestsUsingChoosePerTest"
+                class="com.github.tompower.gpsa.SetTestRunnerToChoosePerTest"
+                text="Run tests using Choose per test">
+        </action>
+    </actions>
+
+</idea-plugin>
