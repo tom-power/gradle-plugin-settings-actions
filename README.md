@@ -1,4 +1,4 @@
-## Gradle plugin settings actions...
+## Gradle plugin settings actions
 
 Plugin providing actions to update the Jetbrains Gradle plugin settings, particularly which Test Runner to use. 
 
