@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "com.github.tompower.gradle-plugin-settings-actions"
-version = "0.1.1"
+version = "0.1.2"
 
 repositories {
     mavenCentral()
