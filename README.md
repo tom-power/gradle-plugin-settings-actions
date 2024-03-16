@@ -1,6 +1,4 @@
-## Gradle Settings Actions
-
-[![ci status][badge]][workflow]
+## Gradle Settings Actions [![ci status][badge]][workflow]
 
 [workflow]: https://github.com/tom-power/gradle-plugin-settings-actions/actions/workflows/gradle.yml
 [badge]: https://img.shields.io/github/actions/workflow/status/tom-power/gradle-plugin-settings-actions/gradle.yml?style=flat-round&logo=github&label=CI%20status
